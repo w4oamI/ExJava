@@ -52,16 +52,25 @@ public class select {
 				System.out.println("검색을 시작합니다.....");
 				
 				boolean flag = false;
-						
+				
+				//---------------------------------------------------------//
+				//해당 학생이 없는 경우를 for문안에서 처리할 경우, list의 두번째 사람을 검색했을때, 첫번째는 없다라는 문구가 나옴.
 				for(Student stu : list) {
 					if(stu.getName().equals(name)) {
 						System.out.println("해당하는 학생의 학번은"+stu.getNo());
 						flag = true;
 					}
 				}
+				//---------------------------------------------------------//
+				
+				
+				//입력한 이름이 list에 있는 경우 false가 ture로 바뀌기 때문에 flag를 이용.
+				//list에 이름이 없었으면 flag=false를 유지하고, 조건에서 !flag를 했기 때문에 true가 되어 들어간다.
+				//---------------------------------------------------------//
 				if(!flag) {
 					System.out.println("해당하는 학생 이름이 없습니다.");
 				}
+				//---------------------------------------------------------//
 			}
 			else if(input.equals("n")) {
 				
