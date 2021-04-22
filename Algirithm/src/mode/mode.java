@@ -33,13 +33,13 @@ public class mode {
 		
 		int modenum=0; //최빈수
 		int modecount=0; //최빈수의 카운트
-		for(int i=0;i<0 ;i++) {
+		for(int i=0;i<10 ;i++) {
 			if(modecount<mode[i]) {
 				modecount = mode[i];
 				modenum=i;
 			}
-			System.out.println("최빈수는 "+ modenum+ "count" + modecount);
 		}
+		System.out.println("최빈수는 "+ modenum+ "count" + modecount);
 	}
 
 }
