@@ -23,8 +23,6 @@ public class pibo_nonarray {
 			firnum=secnum;
 			secnum=sumnum;
 		}
-		System.out.println();
-		System.out.println("끝났습니다.");
 	}
 
 }
