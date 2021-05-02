@@ -24,11 +24,10 @@ public class decTobin {
 			num/=2;
 			i++;
 		}
-		i--;
+		i--;  //마지막에 증감을 하고 나오기 때문에 6번이 반복되야 한다면 i는 7이 되버린다.
 		for(;i>=0;i--) {
 			System.out.print(bin[i]);
 		}
-		System.out.println(" ");
 	}
 
 }
