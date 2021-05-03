@@ -19,12 +19,26 @@ public class gugudan {
 		int startdan = sc.nextInt();
 		int enddan = sc.nextInt();
 		
+		//세로 출력
+		//------------------------------------------------//
 		for(int j = startdan;j<=enddan;j++) {
 			for(int i=1;i<10;i++) {
 				System.out.println(j + "*" + i +"="+ j*i );
 			}
 			System.out.println();
 		}
+		//------------------------------------------------//
+		
+		System.out.println();
+		
+		//가로 출력
+		//------------------------------------------------//
+		for(int i=1;i<10;i++) {
+			for(int j = startdan;j<=enddan;j++) {
+				System.out.printf("%5d*%d=%2d",j,i, j*i);
+			}
+			System.out.println();
+		}
+		//------------------------------------------------//
 	}
-
 }
