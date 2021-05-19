@@ -27,6 +27,9 @@ public class numcount {
 		//출력
 		for(int i=0;i<10;i++) {
 			System.out.println(i+":"+array[i]);
+
 		}
 	}
 }
+//깃연결 확인
+//다시확인
