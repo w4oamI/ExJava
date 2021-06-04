@@ -14,6 +14,11 @@ public class Input_Binary {
 			return ;
 		}
 		Binary(input/2);
+//		Binary(17)을 받게되면 Binary(input/2);로 인해서 
+//		8,4,2,1 순서대로 재귀로 들어가게 되고, 1이 되었을때 위의
+//		if문을 만나 출력을 한후, 1 이전 숫자였던 2를 input으로
+//		(input%2); 을 실행하고, 그다음 4를 input으로 (input%2)를
+//		실행하고, 그후 8을 input으로 (input%2)을 실행한다.
 		System.out.print(input%2);
 	}
 	public static void main(String[] args) {
