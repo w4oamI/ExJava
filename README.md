@@ -2,8 +2,9 @@
 Java Study
 자바 알고리즘 공부
 
-아직 Interview-Question와 연결이 안되어 있기 때문에 여기에 작성해둠.
-이전에 작성한 Interview-Question는 메모장에 있기 때문에 옮길 예정.
+아직 Interview-Question와 연결이 안되어 있기 때문에 여기에 작성해둔다.
+
+#이전에 공부해놓은 Interview-Question 작성.
 
 Interview-Question
 //----------------------------------------------------------------//
