@@ -31,6 +31,7 @@ public class Apartment {
 		map[x][y] = 0;
 		house[apartIndex]++;
 		
+		//색칠하기와 똑같이 적용한다.
 		if(x-1>=0 && map[x-1][y]==APART)
 			fun(x-1,y,apartIndex);
 		if(x+1<=SIZE-1 && map[x+1][y]==APART)
@@ -42,6 +43,12 @@ public class Apartment {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		int [] a = {1,2};
+
+		
+		System.out.println(a[0]++); // 1
+		System.out.println(a[0+1]); 
+		
 		for(int i = 0;i<SIZE;i++) {
 			for(int j = 0;j<SIZE;j++) {
 				if(map[i][j]==1) {
