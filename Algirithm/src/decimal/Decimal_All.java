@@ -10,10 +10,13 @@ public class Decimal_All {
 			return ;
 		}
 		for(int j=2;j<i;j++) {
-			if(j%i==0)
-			System.out.println(i);
+			//소수가 아니면 종료
+			if(i%j==0) {
 			return ;
+			}
 		}
+		System.out.println(i);
+		return;
 		
 	}
 	public static void main(String[] args) {
@@ -21,7 +24,7 @@ public class Decimal_All {
 		Scanner sc = new Scanner(System.in);
 		int input = sc.nextInt();
 		
-		for(int i = 1;i<input;i++) {
+		for(int i = 1;i<=input;i++) {
 			decimal(i);
 			
 		}
